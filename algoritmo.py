@@ -25,3 +25,11 @@ hora_completa=min_totales//60
 min_sub=min_totales%60
 total_pagar=hora_completa*50+min_sub*1.5
 print("tiempo a pagar",tiempo_a_pagar)
+
+
+
+N=int(input("numero de cajas"))
+area=ancho_base*largo_base+ancho_base*altura*2+largo_base*altura*2+ancho_base*altura_sup*2+largo_base*altura_tr
+precio=0.5
+tatal_pagar=area*precio*N
+print("total",total_pagar)
